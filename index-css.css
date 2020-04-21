@@ -1,0 +1,130 @@
+@font-face {
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-family: "OpenSans Bold";
+}
+@font-face {
+    src: url('../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+    font-family: "PlayfairDisplay Italic.ttf"; 
+}
+@font-face {
+    src: url('../fonts/PlayfairDisplay-VariableFont_wght.ttf');
+    font-family: "PlayfairDisplay.ttf";
+}
+html {
+    display: block;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "OpenSans Bold" sans-serif;
+    min-height: 100vh;
+}
+a {
+    color: silver;
+    cursor: pointer;
+    text-decoration: underline;
+}
+main {
+    padding: 40px;
+    display: flex;
+    font-family: "OpenSans Bold";
+    margin: 0 auto;
+    width: 1000px;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+h1 {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 2em;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0em;
+    margin-right: 1em;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+footer {
+    display: block;
+}
+.startup:hover {
+    transition: 0.3s;
+    color: silver;
+}
+.startup {
+    font-size: 20px;
+    margin: 0 8px;
+    color: steelblue;
+    font-family: "PlayfairDisplay.ttf";
+}
+.aside {
+    display: block;
+}
+.section {
+    padding-left: 50px;
+    flex-grow: 1;
+}
+.title:hover {
+    color: darkgray;
+    transition: 0.2s;
+}
+.title {
+    color: steelblue;
+    font-family: "PlayfairDisplay Italic.ttf";
+}
+.header {
+    padding: 20px;
+    flex: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.img {
+    border: 1px solid rgb(66, 63, 63);
+    border-radius: 20px;
+}
+.p {
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.item-of-contact {
+    display: flex;
+    align-items: center;
+}
+.contact-icon {
+    margin-right: 20px;
+}
+.link:hover {
+    transition: .2s;
+    color: silver;
+}
+.link {
+    color: steelblue;
+}
+.info {
+    border-left: 5px solid darkgray;
+    padding-left: 10px;
+    color: gray;
+    margin-top: 35px;
+    font-family: "OpenSans Bold", serif;
+}
+.footer {
+    display: inline-flex;
+    justify-content: center;
+    background: darkslategray;
+    color: silver;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.ul {
+    display: block;
+}
